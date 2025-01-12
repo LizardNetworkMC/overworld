@@ -1,0 +1,99 @@
+{
+    "name": "Nether Bridge",
+    "rarity": 1,
+    "maxPicked": 6,
+    "minPicked": 4,
+    "loot": [
+        {
+            "type": "diamond",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "iron_ingot",
+            "maxAmount": 5,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "gold_ingot",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "golden_sword",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "golden_chestplate",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "flint_and_steel",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "nether_wart",
+            "maxAmount": 7,
+            "minAmount": 3,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "saddle",
+            "maxAmount": 7,
+            "minAmount": 3,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "iron_horse_armor",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "golden_horse_armor",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "diamond_horse_armor",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 10,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "obsidian",
+            "maxAmount": 4,
+            "minAmount": 2,
+            "rarity": 8,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "rib_armor_trim_smithing_template",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        }
+    ]
+}

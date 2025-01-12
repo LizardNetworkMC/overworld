@@ -1,0 +1,416 @@
+{
+    "name": "Bastion Other",
+    "rarity": 2,
+    "maxPicked": 12,
+    "minPicked": 8,
+    "loot": [
+        {
+            "type": "diamond_pickaxe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 4,
+            "slottypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "vanishing_curse",
+                    "chance": 0.15,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "efficiency",
+                    "chance": 0.15,
+                    "maxLevel": 5,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "fortune",
+                    "chance": 0.15,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "mending",
+                    "chance": 0.15,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "silk_touch",
+                    "chance": 0.15,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.15,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "type": "diamond_shovel",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 4,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "crossbow",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "mindurability": 0.1,
+            "maxdurability": 0.9,
+            "rarity": 4,
+            "slottypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.5,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "punch",
+                    "chance": 0.25,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "power",
+                    "chance": 0.25,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "type": "ancient_debris",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "netherite_scrap",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 6,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "spectral_arrow",
+            "maxAmount": 22,
+            "minAmount": 10,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "piglin_banner_pattern",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "music_disc_pigstep",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "golden_carrot",
+            "maxAmount": 17,
+            "minAmount": 6,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "golden_apple",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "golden_apple",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "iron_sword",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "mindurability": 0.1,
+            "maxdurability": 0.9,
+            "rarity": 8,
+            "slottypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "bane_of_arthropods",
+                    "chance": 0.1,
+                    "maxLevel": 5,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "vanishing_curse",
+                    "chance": 0.1,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "fire_aspect",
+                    "chance": 0.1,
+                    "maxLevel": 2,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "knockback",
+                    "chance": 0.1,
+                    "maxLevel": 2,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "looting",
+                    "chance": 0.1,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "mending",
+                    "chance": 0.1,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "sharpness",
+                    "chance": 0.1,
+                    "maxLevel": 5,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "smite",
+                    "chance": 0.1,
+                    "maxLevel": 5,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "sweeping",
+                    "chance": 0.1,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.1,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "type": "iron_block",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 8,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "golden_axe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.5,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "efficiency",
+                    "chance": 0.125,
+                    "maxLevel": 4,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "smite",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "looting",
+                    "chance": 0.125,
+                    "maxLevel": 2,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "sharpness",
+                    "chance": 0.125,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "type": "gold_block",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 8,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "crossbow",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 4,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "gold_ingot",
+            "maxAmount": 6,
+            "minAmount": 1,
+            "rarity": 8,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "iron_ingot",
+            "maxAmount": 6,
+            "minAmount": 1,
+            "rarity": 8,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "golden_sword",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 4,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "golden_chestplate",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 4,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "golden_leggings",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 4,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "golden_boots",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 4,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "crying_obsidian",
+            "maxAmount": 5,
+            "minAmount": 1,
+            "rarity": 8,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "gilded_blackstone",
+            "maxAmount": 5,
+            "minAmount": 1,
+            "rarity": 8,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "chain",
+            "maxAmount": 10,
+            "minAmount": 2,
+            "rarity": 1,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "magma_cream",
+            "maxAmount": 6,
+            "minAmount": 2,
+            "rarity": 8,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "bone_block",
+            "maxAmount": 6,
+            "minAmount": 3,
+            "rarity": 1,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "iron_nugget",
+            "maxAmount": 8,
+            "minAmount": 2,
+            "rarity": 1,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "obsidian",
+            "maxAmount": 6,
+            "minAmount": 4,
+            "rarity": 1,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "gold_nugget",
+            "maxAmount": 8,
+            "minAmount": 2,
+            "rarity": 1,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "string",
+            "maxAmount": 6,
+            "minAmount": 4,
+            "rarity": 1,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "arrow",
+            "maxAmount": 17,
+            "minAmount": 5,
+            "rarity": 8,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "cooked_porkchop",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 1,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "cooked_porkchop",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 1,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "snout_armor_trim_smithing_template",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "netherite_upgrade_smithing_template",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slottypes": "STORAGE"
+        }
+    ]
+}

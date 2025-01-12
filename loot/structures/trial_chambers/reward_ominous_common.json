@@ -1,0 +1,50 @@
+{
+    "name": "Trial Chambers Ominous Reward Common",
+    "rarity": 1,
+    "maxPicked": 8,
+    "minPicked": 3,
+    "loot": [
+        {
+            "type": "emerald",
+            "maxAmount": 10,
+            "minAmount": 4,
+            "rarity": 3,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "wind_charge",
+            "maxAmount": 12,
+            "minAmount": 8,
+            "rarity": 3,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "wind_charge",
+            "maxAmount": 12,
+            "minAmount": 8,
+            "rarity": 6,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "diamond",
+            "maxAmount": 3,
+            "minAmount": 2,
+            "rarity": 8,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "diamond",
+            "maxAmount": 3,
+            "minAmount": 2,
+            "rarity": 8,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "diamond",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Jungle Temple Dispenser",
+    "rarity": 1,
+    "maxPicked": 2,
+    "minPicked": 1,
+    "loot": [
+        {
+            "type": "arrow",
+            "maxAmount": 7,
+            "minAmount": 2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "arrow",
+            "maxAmount": 7,
+            "minAmount": 2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        }
+    ]  
+}

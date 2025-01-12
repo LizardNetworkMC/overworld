@@ -1,0 +1,78 @@
+{
+    "name": "Buried Treasure",
+    "rarity": 1,
+    "maxPicked": 6,
+    "minPicked": 3,
+    "loot": [
+        {
+            "type": "coal",
+            "maxAmount": 4,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "stone_axe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 8,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "rotten_flesh",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "emerald",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 6,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "wheat",
+            "maxAmount": 3,
+            "minAmount": 2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "wheat",
+            "maxAmount": 3,
+            "minAmount": 2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "leather_chestplate",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "golden_helmet",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 6,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "fishing_rod",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "map",
+            "maxamount": 1,
+            "minAmount": 1,
+            "rarity": 6,
+            "slottypes": "STORAGE"
+        }
+    ]
+}

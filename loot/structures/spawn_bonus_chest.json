@@ -1,0 +1,120 @@
+{
+    "name": "Buried Treasure",
+    "rarity": 1,
+    "maxPicked": 10,
+    "minPicked": 4,
+    "loot": [
+        {
+            "type": "stone_axe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "wooden_axe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 7,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "stone_pickaxe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "wooden_pickaxe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 7,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "apple",
+            "maxAmount": 2,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "bread",
+            "maxAmount": 2,
+            "minAmount": 1,
+            "rarity": 7,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "salmon",
+            "maxAmount": 2,
+            "minAmount": 1,
+            "rarity": 7,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "stick",
+            "maxAmount": 12,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "oak_planks",
+            "maxAmount": 12,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "oak_log",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 7,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "spruce_log",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 7,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "birch_log",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 7,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "jungle_log",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 7,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "acacia_log",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 7,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "dark_oak_log",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 7,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "mangrove_log",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 7,
+            "slotTypes": "STORAGE"
+        }
+    ]
+}

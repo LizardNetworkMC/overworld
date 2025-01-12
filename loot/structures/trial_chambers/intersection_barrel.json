@@ -1,0 +1,181 @@
+{
+    "name": "Trial Chambers Intersection Barrel",
+    "rarity": 1,
+    "maxPicked": 8,
+    "minPicked": 3,
+    "loot": [
+        {
+            "type": "diamond_axe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "mindurability": 0.1,
+            "maxdurability": 0.6,
+            "rarity": 3,
+            "slotTypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.5,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "efficiency",
+                    "chance": 0.125,
+                    "maxLevel": 4,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "smite",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "looting",
+                    "chance": 0.125,
+                    "maxLevel": 2,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "sharpness",
+                    "chance": 0.125,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "type": "diamond_pickaxe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "mindurability": 0.2,
+            "maxdurability": 0.85,
+            "rarity": 2,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "diamond",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "compass",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "bucket",
+            "maxAmount": 2,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "golden_axe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "mindurability": 0.2,
+            "maxdurability": 0.85,
+            "rarity": 6,
+            "slotTypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.5,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "efficiency",
+                    "chance": 0.125,
+                    "maxLevel": 4,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "smite",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "looting",
+                    "chance": 0.125,
+                    "maxLevel": 2,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "sharpness",
+                    "chance": 0.125,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "type": "golden_pickaxe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "mindurability": 0.2,
+            "maxdurability": 0.85,
+            "rarity": 6,
+            "slottypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "vanishing_curse",
+                    "chance": 0.15,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "efficiency",
+                    "chance": 0.15,
+                    "maxLevel": 5,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "fortune",
+                    "chance": 0.15,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "mending",
+                    "chance": 0.15,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "silk_touch",
+                    "chance": 0.15,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.15,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "type": "bamboo_planks",
+            "maxAmount": 15,
+            "minAmount": 5,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "baked_potato",
+            "maxAmount": 10,
+            "minAmount": 6,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        }
+    ]
+}

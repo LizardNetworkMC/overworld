@@ -1,0 +1,36 @@
+{
+    "name": "Trial Chambers Entrance",
+    "rarity": 1,
+    "maxPicked": 8,
+    "minPicked": 3,
+    "loot": [
+        {
+            "type": "trial_key",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "stick",
+            "maxAmount": 5,
+            "minAmount": 2,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "wooden_axe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "arrow",
+            "maxAmount": 10,
+            "minAmount": 5,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        }
+    ]
+}

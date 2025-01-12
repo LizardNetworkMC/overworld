@@ -1,0 +1,404 @@
+{
+    "name": "Bastion Treasure",
+    "rarity": 1,
+    "maxPicked": 4,
+    "minPicked": 2,
+    "loot": [
+        {
+            "type": "netherite_ingot",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "ancient_debris",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "netherite_scrap",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "ancient_debris",
+            "maxAmount": 2,
+            "minAmount": 2,
+            "rarity": 6,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "netherite_scrap",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "diamond_sword",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "mindurability": 0.1,
+            "maxdurability": 0.9,
+            "rarity": 4,
+            "slottypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "bane_of_arthropods",
+                    "chance": 0.1,
+                    "maxLevel": 5,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "vanishing_curse",
+                    "chance": 0.1,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "fire_aspect",
+                    "chance": 0.1,
+                    "maxLevel": 2,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "knockback",
+                    "chance": 0.1,
+                    "maxLevel": 2,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "looting",
+                    "chance": 0.1,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "mending",
+                    "chance": 0.1,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "sharpness",
+                    "chance": 0.1,
+                    "maxLevel": 5,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "smite",
+                    "chance": 0.1,
+                    "maxLevel": 5,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "sweeping",
+                    "chance": 0.1,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.1,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "type": "diamond_chestplate",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "mindurability": 0.1,
+            "maxdurability": 0.9,
+            "rarity": 6,
+            "slotTypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.5,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "protection",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "fire_protection",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "thorns",
+                    "chance": 0.125,
+                    "maxLevel": 2,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "blast_protection",
+                    "chance": 0.125,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "type": "diamond_helmet",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "mindurability": 0.1,
+            "maxdurability": 0.9,
+            "rarity": 4,
+            "slotTypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.5,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "projectile_protection",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "fire_protection",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "thorns",
+                    "chance": 0.125,
+                    "maxLevel": 2,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "blast_protection",
+                    "chance": 0.125,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "type": "diamond_leggings",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "mindurability": 0.1,
+            "maxdurability": 0.9,
+            "rarity": 4,
+            "slotTypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.5,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "blast_protection",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "fire_protection",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "thorns",
+                    "chance": 0.125,
+                    "maxLevel": 2,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "blast_protection",
+                    "chance": 0.125,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "type": "diamond_boots",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "mindurability": 0.1,
+            "maxdurability": 0.9,
+            "rarity": 4,
+            "slotTypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.5,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "feather_falling",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "fire_protection",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "thorns",
+                    "chance": 0.125,
+                    "maxLevel": 2,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "blast_protection",
+                    "chance": 0.125,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                }
+            ]
+        },
+        {
+            "type": "diamond_sword",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 4,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "diamond_chestplate",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "diamond_boots",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "diamond_leggings",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "diamond",
+            "maxAmount": 6,
+            "minAmount": 2,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "enchanted_golden_apple",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 8,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "spectral_arrow",
+            "maxAmount": 25,
+            "minAmount": 12,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "gold_block",
+            "maxAmount": 5,
+            "minAmount": 2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "iron_block",
+            "maxAmount": 5,
+            "minAmount": 2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "gold_ingot",
+            "maxAmount": 9,
+            "minAmount": 3,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "iron_ingot",
+            "maxAmount": 9,
+            "minAmount": 3,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "crying_obsidian",
+            "maxAmount": 5,
+            "minAmount": 3,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "quartz",
+            "maxAmount": 23,
+            "minAmount": 8,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "gilded_blackstone",
+            "maxAmount": 15,
+            "minAmount": 5,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "magma_cream",
+            "maxAmount": 8,
+            "minAmount": 3,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "magma_cream",
+            "maxAmount": 8,
+            "minAmount": 3,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "snout_armor_trim_smithing_template",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "netherite_upgrade_smithing_template",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        }
+    ]
+}

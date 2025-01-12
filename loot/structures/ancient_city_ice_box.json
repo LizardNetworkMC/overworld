@@ -1,0 +1,43 @@
+{
+    "name": "Ancient City Ice Box",
+    "rarity": 1,
+    "maxPicked": 10,
+    "minPicked": 4,
+    "loot": [
+        {
+            "type": "suspicious_stew",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 3,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "golden_carrot",
+            "maxAmount": 10,
+            "minAmount": 1,
+            "rarity": 10,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "baked_potato",
+            "maxAmount": 10,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "packed_ice",
+            "maxAmount": 6,
+            "minAmount": 2,
+            "rarity": 8,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "snowball",
+            "maxAmount": 6,
+            "minAmount": 2,
+            "rarity": 6,
+            "slotTypes": "STORAGE"
+        }
+    ]
+}

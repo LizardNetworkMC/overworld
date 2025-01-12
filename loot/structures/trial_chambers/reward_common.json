@@ -1,0 +1,50 @@
+{
+    "name": "Trial Chambers Reward Common",
+    "rarity": 1,
+    "maxPicked": 8,
+    "minPicked": 3,
+    "loot": [
+        {
+            "type": "arrow",
+            "maxAmount": 8,
+            "minAmount": 2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "emerald",
+            "maxAmount": 4,
+            "minAmount": 2,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "wind_charge",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "honey_bottle",
+            "maxAmount": 2,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "wind_charge",
+            "maxAmount": 12,
+            "minAmount": 4,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "diamond",
+            "maxAmount": 2,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        }
+    ]
+}

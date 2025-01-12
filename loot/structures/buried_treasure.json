@@ -1,0 +1,85 @@
+{
+    "name": "Buried Treasure",
+    "rarity": 1,
+    "maxPicked": 10,
+    "minPicked": 3,
+    "loot": [
+        {
+            "type": "heart_of_the_sea",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "iron_ingot",
+            "maxAmount": 4,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "gold_ingot",
+            "maxAmount": 4,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "tnt",
+            "maxAmount": 2,
+            "minAmount": 1,
+            "rarity": 6,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "emerald",
+            "maxAmount": 8,
+            "minAmount": 4,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "diamond",
+            "maxAmount": 2,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "prismarine_crystals",
+            "maxAmount": 5,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "leather_chestplate",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "iron_sword",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "cooked_cod",
+            "maxAmount": 4,
+            "minAmount": 2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "cooked_cod",
+            "maxAmount": 4,
+            "minAmount": 2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        }
+    ]
+}
