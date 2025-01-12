@@ -1,239 +1,73 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "name": "Trial Chambers Supply",
+    "rarity": 1,
+    "maxPicked": 5,
+    "minPicked": 3,
+    "loot": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 14.0,
-                "min": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:arrow",
-          "weight": 2
+            "type": "arrow",
+            "maxAmount": 14,
+            "minAmount": 4,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 4.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:poison"
-            }
-          ],
-          "name": "minecraft:tipped_arrow"
+            "type": "baked_potato",
+            "maxAmount": 4,
+            "minAmount": 2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 4.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:slowness"
-            }
-          ],
-          "name": "minecraft:tipped_arrow"
+            "type": "acacia_planks",
+            "maxAmount": 6,
+            "minAmount": 3,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:baked_potato",
-          "weight": 2
+            "type": "moss_block",
+            "maxAmount": 5,
+            "minAmount": 2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:glow_berries",
-          "weight": 2
+            "type": "bone_meal",
+            "maxAmount": 5,
+            "minAmount": 2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:acacia_planks"
+            "type": "tuff",
+            "maxAmount": 10,
+            "minAmount": 5,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:moss_block"
+            "type": "torch",
+            "maxAmount": 6,
+            "minAmount": 3,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bone_meal"
+            "type": "stone_pickaxe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "maxDurability": 0.85,
+            "minDurability": 0.2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:tuff"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:torch"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 2.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:regeneration"
-            }
-          ],
-          "name": "minecraft:potion"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 2.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:set_potion",
-              "id": "minecraft:strength"
-            }
-          ],
-          "name": "minecraft:potion"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.8,
-                "min": 0.15
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "minecraft:stone_pickaxe",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:milk_bucket"
+            "type": "milk_bucket",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 5.0,
-        "min": 3.0
-      }
-    }
-  ],
-  "random_sequence": "minecraft:chests/trial_chambers/supply"
+    ]
 }

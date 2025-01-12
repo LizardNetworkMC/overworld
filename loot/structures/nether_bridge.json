@@ -1,145 +1,99 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "name": "Nether Bridge",
+    "rarity": 1,
+    "maxPicked": 6,
+    "minPicked": 4,
+    "loot": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond",
-          "weight": 5
+            "type": "diamond",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_ingot",
-          "weight": 5
+            "type": "iron_ingot",
+            "maxAmount": 5,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gold_ingot",
-          "weight": 15
+            "type": "gold_ingot",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_sword",
-          "weight": 5
+            "type": "golden_sword",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_chestplate",
-          "weight": 5
+            "type": "golden_chestplate",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:flint_and_steel",
-          "weight": 5
+            "type": "flint_and_steel",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:nether_wart",
-          "weight": 5
+            "type": "nether_wart",
+            "maxAmount": 7,
+            "minAmount": 3,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:saddle",
-          "weight": 10
+            "type": "saddle",
+            "maxAmount": 7,
+            "minAmount": 3,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor",
-          "weight": 8
+            "type": "iron_horse_armor",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor",
-          "weight": 5
+            "type": "golden_horse_armor",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor",
-          "weight": 3
+            "type": "diamond_horse_armor",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 10,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:obsidian",
-          "weight": 2
+            "type": "obsidian",
+            "maxAmount": 4,
+            "minAmount": 2,
+            "rarity": 8,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "rib_armor_trim_smithing_template",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 4.0,
-        "min": 2.0
-      }
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 14
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:rib_armor_trim_smithing_template"
-        }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:chests/nether_bridge"
+    ]
 }

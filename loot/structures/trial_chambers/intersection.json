@@ -1,149 +1,75 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "name": "Trial Chambers Intersection",
+    "rarity": 1,
+    "maxPicked": 8,
+    "minPicked": 3,
+    "loot": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond_block"
+            "type": "diamond_block",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 3,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:emerald_block",
-          "weight": 5
+            "type": "emerald_block",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.5,
-                "min": 0.1
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "minecraft:diamond_axe",
-          "weight": 5
+            "type": "emerald_block",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 0.5,
-                "min": 0.1
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "minecraft:diamond_pickaxe",
-          "weight": 5
+            "type": "diamond_axe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "mindurability": 0.5,
+            "maxdurability": 0.9,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond",
-          "weight": 10
+            "type": "diamond_pickaxe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "mindurability": 0.5,
+            "maxdurability": 0.9,
+            "rarity": 5,
+            "slottypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:cake",
-          "weight": 20
+            "type": "diamond",
+            "maxAmount": 2,
+            "minAmount": 1,
+            "rarity": 1,
+            "slottypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 20.0,
-                "min": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:amethyst_shard",
-          "weight": 20
+            "type": "cake",
+            "maxAmount": 4,
+            "minAmount": 1,
+            "rarity": 1,
+            "slottypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_block",
-          "weight": 20
+            "type": "amethyst_shard",
+            "maxAmount": 20,
+            "minAmount": 8,
+            "rarity": 1,
+            "slottypes": "STORAGE"
+        },
+        {
+            "type": "iron_block",
+            "maxAmount": 2,
+            "minAmount": 1,
+            "rarity": 1,
+            "slottypes": "STORAGE"
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 3.0,
-        "min": 1.0
-      }
-    }
-  ],
-  "random_sequence": "minecraft:chests/trial_chambers/intersection"
+    ]
 }

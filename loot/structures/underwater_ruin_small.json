@@ -1,107 +1,78 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "name": "Buried Treasure",
+    "rarity": 1,
+    "maxPicked": 6,
+    "minPicked": 3,
+    "loot": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:coal",
-          "weight": 10
+            "type": "coal",
+            "maxAmount": 4,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:stone_axe",
-          "weight": 2
+            "type": "stone_axe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 8,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:rotten_flesh",
-          "weight": 5
+            "type": "rotten_flesh",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
+            "type": "emerald",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 6,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:wheat",
-          "weight": 10
+            "type": "wheat",
+            "maxAmount": 3,
+            "minAmount": 2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "wheat",
+            "maxAmount": 3,
+            "minAmount": 2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "leather_chestplate",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "golden_helmet",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 6,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "fishing_rod",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "map",
+            "maxamount": 1,
+            "minAmount": 1,
+            "rarity": 6,
+            "slottypes": "STORAGE"
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 8.0,
-        "min": 2.0
-      }
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:leather_chestplate"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_helmet"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:fishing_rod",
-          "weight": 5
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "decoration": "minecraft:red_x",
-              "function": "minecraft:exploration_map",
-              "skip_existing_chunks": false,
-              "zoom": 1
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "translate": "filled_map.buried_treasure"
-              },
-              "target": "item_name"
-            }
-          ],
-          "name": "minecraft:map",
-          "weight": 5
-        }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:chests/underwater_ruin_small"
+    ]
 }

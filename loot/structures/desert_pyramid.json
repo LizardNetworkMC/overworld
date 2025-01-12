@@ -1,280 +1,219 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "name": "Desert Pyramid",
+    "rarity": 1,
+    "maxPicked": 6,
+    "minPicked": 4,
+    "loot": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond",
-          "weight": 5
+            "type": "diamond",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 7,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 5.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_ingot",
-          "weight": 15
+            "type": "iron_ingot",
+            "maxAmount": 5,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gold_ingot",
-          "weight": 15
+            "type": "gold_ingot",
+            "maxAmount": 7,
+            "minAmount": 2,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:emerald",
-          "weight": 15
+            "type": "gold_ingot",
+            "maxAmount": 7,
+            "minAmount": 2,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 6.0,
-                "min": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bone",
-          "weight": 25
+            "type": "emerald",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:spider_eye",
-          "weight": 25
+            "type": "bone",
+            "maxAmount": 6,
+            "minAmount": 4,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:rotten_flesh",
-          "weight": 25
+            "type": "spider_eye",
+            "maxAmount": 3,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:saddle",
-          "weight": 20
+            "type": "rotten_flesh",
+            "maxAmount": 7,
+            "minAmount": 3,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_horse_armor",
-          "weight": 15
+            "type": "rotten_flesh",
+            "maxAmount": 7,
+            "minAmount": 3,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_horse_armor",
-          "weight": 10
+            "type": "saddle",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 3,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_horse_armor",
-          "weight": 5
+            "type": "iron_horse_armor",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 20
+            "type": "golden_horse_armor",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 6,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:golden_apple",
-          "weight": 20
+            "type": "diamond_horse_armor",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 10,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_golden_apple",
-          "weight": 2
+            "type": "book",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 10,
+            "slotTypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "vanishing_curse",
+                    "chance": 0.15,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "efficiency",
+                    "chance": 0.15,
+                    "maxLevel": 5,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "fortune",
+                    "chance": 0.15,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "mending",
+                    "chance": 0.05,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "silk_touch",
+                    "chance": 0.15,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.15,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "thorns",
+                    "chance": 0.10,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "efficiency",
+                    "chance": 0.10,
+                    "maxLevel": 4,
+                    "minLevel": 1
+                }
+            ]
         },
         {
-          "type": "minecraft:empty",
-          "weight": 15
+            "type": "golden_apple",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 4,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "enchanted_golden_apple",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 10,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "bone",
+            "maxAmount": 8,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "bone",
+            "maxAmount": 8,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "gunpowder",
+            "maxAmount": 8,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "rotten_flesh",
+            "maxAmount": 8,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "string",
+            "maxAmount": 8,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "sand",
+            "maxAmount": 8,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "dune_armor_trim_smithing_template",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 4.0,
-        "min": 2.0
-      }
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bone",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gunpowder",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:rotten_flesh",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:string",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 8.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:sand",
-          "weight": 10
-        }
-      ],
-      "rolls": 4.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 6
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": 2.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:dune_armor_trim_smithing_template"
-        }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:chests/desert_pyramid"
+    ]
 }

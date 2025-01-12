@@ -1,189 +1,329 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "name": "Trial Chambers Rare Reward",
+    "rarity": 1,
+    "maxPicked": 8,
+    "minPicked": 3,
+    "loot": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:emerald",
-          "weight": 3
+            "type": "emerald",
+            "maxAmount": 4,
+            "minAmount": 2,
+            "rarity": 3,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "damage": {
-                "type": "minecraft:uniform",
-                "max": 1.0,
-                "min": 0.5
-              },
-              "function": "minecraft:set_damage"
-            }
-          ],
-          "name": "minecraft:shield",
-          "weight": 3
+            "type": "shield",
+            "maxAmount": 4,
+            "minAmount": 2,
+            "mindurability": 0.5,
+            "maxdurability": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 15.0,
-                "min": 5.0
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:bow",
-          "weight": 3
+            "type": "bow",
+            "maxAmount": 4,
+            "minAmount": 2,
+            "mindurability": 0.5,
+            "maxdurability": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.5,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "punch",
+                    "chance": 0.25,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "power",
+                    "chance": 0.25,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                }
+            ]
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 20.0,
-                "min": 5.0
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:crossbow",
-          "weight": 2
+            "type": "crossbow",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "mindurability": 0.5,
+            "maxdurability": 0.9,
+            "rarity": 10,
+            "slotTypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.5,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "punch",
+                    "chance": 0.25,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "power",
+                    "chance": 0.25,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                }
+            ]
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 0.0
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:iron_axe",
-          "weight": 2
+            "type": "iron_axe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 3,
+            "slotTypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.5,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "efficiency",
+                    "chance": 0.125,
+                    "maxLevel": 4,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "smite",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "looting",
+                    "chance": 0.125,
+                    "maxLevel": 2,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "sharpness",
+                    "chance": 0.125,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                }
+            ]
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 10.0,
-                "min": 0.0
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:iron_chestplate",
-          "weight": 2
+            "type": "iron_chestplate",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 7,
+            "slotTypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.5,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "protection",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "fire_protection",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "thorns",
+                    "chance": 0.125,
+                    "maxLevel": 2,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "blast_protection",
+                    "chance": 0.125,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                }
+            ]
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:golden_carrot",
-          "weight": 2
+            "type": "golden_carrot",
+            "maxAmount": 2,
+            "minAmount": 1,
+            "rarity": 2,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": [
-                "minecraft:sharpness",
-                "minecraft:bane_of_arthropods",
-                "minecraft:efficiency",
-                "minecraft:fortune",
-                "minecraft:silk_touch",
-                "minecraft:feather_falling"
-              ]
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 2
+            "type": "book",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 4,
+            "slotTypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "sharpness",
+                    "chance": 0.5,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "bane_of_arthropods",
+                    "chance": 0.5,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "efficiency",
+                    "chance": 0.5,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "fortune",
+                    "chance": 0.5,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "silk_touch",
+                    "chance": 0.5,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "feather_falling",
+                    "chance": 0.5,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                }
+            ]
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": [
-                "minecraft:riptide",
-                "minecraft:loyalty",
-                "minecraft:channeling",
-                "minecraft:impaling",
-                "minecraft:mending"
-              ]
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 2
+            "type": "book",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 4,
+            "slotTypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "riptide",
+                    "chance": 0.5,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "loyalty",
+                    "chance": 0.5,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "channeling",
+                    "chance": 0.5,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "impaling",
+                    "chance": 0.5,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "mending",
+                    "chance": 0.5,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                }
+            ]
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 15.0,
-                "min": 5.0
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:diamond_chestplate"
+            "type": "diamond_chestplate",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 7,
+            "slotTypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.5,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "protection",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "fire_protection",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "thorns",
+                    "chance": 0.125,
+                    "maxLevel": 2,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "blast_protection",
+                    "chance": 0.125,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                }
+            ]
         },
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "max": 15.0,
-                "min": 5.0
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ],
-          "name": "minecraft:diamond_axe"
+            "type": "diamond_axe",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE",
+            "enchantments": [
+                {
+                    "enchantment": "unbreaking",
+                    "chance": 0.5,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "efficiency",
+                    "chance": 0.125,
+                    "maxLevel": 4,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "smite",
+                    "chance": 0.125,
+                    "maxLevel": 1,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "looting",
+                    "chance": 0.125,
+                    "maxLevel": 2,
+                    "minLevel": 1
+                },
+                {
+                    "enchantment": "sharpness",
+                    "chance": 0.125,
+                    "maxLevel": 3,
+                    "minLevel": 1
+                }
+            ]
         }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:chests/trial_chambers/reward_rare"
+    ]
 }

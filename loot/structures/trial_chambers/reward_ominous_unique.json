@@ -1,35 +1,43 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "name": "Trial Chambers Ominous Reward Unique",
+    "rarity": 1,
+    "maxPicked": 8,
+    "minPicked": 3,
+    "loot": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_golden_apple",
-          "weight": 3
+            "type": "enchanted_golden_apple",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 3,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:flow_armor_trim_smithing_template",
-          "weight": 3
+            "type": "flow_armor_trim_smithing_template",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 5,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:flow_banner_pattern",
-          "weight": 2
+            "type": "flow_banner_pattern",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_creator"
+            "type": "music_disc_creator",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:heavy_core"
+            "type": "heavy_core",
+            "maxAmount": 1,
+            "minAmount": 1,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         }
-      ],
-      "rolls": 1.0
-    }
-  ],
-  "random_sequence": "minecraft:chests/trial_chambers/reward_ominous_unique"
+    ]
 }

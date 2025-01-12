@@ -1,32 +1,22 @@
 {
-  "type": "minecraft:chest",
-  "pools": [
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
+    "name": "Jungle Temple Dispenser",
+    "rarity": 1,
+    "maxPicked": 2,
+    "minPicked": 1,
+    "loot": [
         {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 7.0,
-                "min": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:arrow",
-          "weight": 30
+            "type": "arrow",
+            "maxAmount": 7,
+            "minAmount": 2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "arrow",
+            "maxAmount": 7,
+            "minAmount": 2,
+            "rarity": 1,
+            "slotTypes": "STORAGE"
         }
-      ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 2.0,
-        "min": 1.0
-      }
-    }
-  ],
-  "random_sequence": "minecraft:chests/jungle_temple_dispenser"
+    ]  
 }

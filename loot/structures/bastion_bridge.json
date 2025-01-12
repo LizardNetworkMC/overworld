@@ -1,8 +1,8 @@
 {
     "name": "Bastion Bridge",
     "rarity": 1,
-    "maxPicked": 4,
-    "minPicked": 2,
+    "maxPicked": 8,
+    "minPicked": 3,
     "loot": [
         {
             "type": "lodestone",
@@ -15,8 +15,8 @@
             "type": "crossbow",
             "maxAmount": 1,
             "minAmount": 1,
-            "mindurability": 0.9,
-            "maxdurability": 0.5,
+            "mindurability": 0.5,
+            "maxdurability": 0.9,
             "rarity": 10,
             "slotTypes": "STORAGE",
             "enchantments": [
@@ -330,14 +330,14 @@
             "type": "snout_armor_trim_smithing_template",
             "maxAmount": 1,
             "minAmount": 1,
-            "rarity": 25,
+            "rarity": 5,
             "slotTypes": "STORAGE"
         },
         {
             "type": "netherite_upgrade_smithing_template",
             "maxAmount": 1,
             "minAmount": 1,
-            "rarity": 25,
+            "rarity": 5,
             "slotTypes": "STORAGE"
         }
     ]
